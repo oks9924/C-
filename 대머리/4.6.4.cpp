@@ -1,11 +1,11 @@
-#include "std_lib_facilities.h"
+ï»¿#include "std_lib_facilities.h"
 
 int main() {
 	vector<string> words;
 	vector<string> fun;
 	for (string temp; cin >> temp;)
 		words.push_back(temp);
-	cout << "´Ü¾î °³¼ö: " << words.size()<<'\n';
+	cout << "ë‹¨ì–´ ê°œìˆ˜: " << words.size()<<'\n';
 
 	sort(words);
 
