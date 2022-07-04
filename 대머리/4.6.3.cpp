@@ -1,4 +1,4 @@
-/*#include <vector>
+#include <vector>
 #include <iostream>
 #include "std_lib_facilities.h"
 
@@ -23,7 +23,7 @@ int main() {
 	int sum = 0;
 	for (int x : temps)
 		sum += x;
-	std::cout << "�µ� ���: "<<sum / temps.size() << '\n';
+	std::cout << "¿Âµµ Æò±Õ: "<<sum / temps.size() << '\n';
 	sort(temps);
-	cout << "�µ� �߾Ӱ�: " << temps[temps.size() / 2]<<'\n';
-}*/
+	cout << "¿Âµµ Áß¾Ó°ª: " << temps[temps.size() / 2]<<'\n';
+}
