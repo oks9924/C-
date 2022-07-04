@@ -18,4 +18,9 @@ int main() {
 	for (string x : fun)
 		cout << x << '\n';
 
+
+
+
+
+
 }
